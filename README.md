@@ -46,34 +46,52 @@ Users earn XP, level up from *Citizen* to *Constitutional Expert*, battle friend
 **The Solution:** Make learning so engaging and rewarding that it does not feel like studying.
 
 ---
+
 ## Output
- <img width="931" height="478" alt="image" src="https://github.com/user-attachments/assets/e9245fbe-3d8b-492f-b9c3-0a004628b7ec" />
-home page
-<br>
-<img width="782" height="560" alt="image" src="https://github.com/user-attachments/assets/eed9c4e7-47e9-4204-bce7-05c18a968bb5" />
-signup page
-<br>
-<img width="669" height="452" alt="image" src="https://github.com/user-attachments/assets/19e319a1-7d74-488c-8747-ce7a65f252ef" />
-login page
-<br>
-<img width="1365" height="643" alt="image" src="https://github.com/user-attachments/assets/9dd6c988-123f-4d70-9005-c9345d6f8c2c" />
-user dashboard after login/signup
-<br>
-<img width="916" height="595" alt="image" src="https://github.com/user-attachments/assets/537fbc6e-c07f-45b6-b40a-abb022532ffd" />
-Chatbot interface
-<br>
-<img width="869" height="581" alt="image" src="https://github.com/user-attachments/assets/94196c6a-66ca-443d-95bd-f7011b9f9556" />
-multiplayer battle 
-<br>
-<img width="1067" height="651" alt="image" src="https://github.com/user-attachments/assets/26a90281-fb7f-4958-9a30-831ff56163c9" />
-snakes and ladder with constitution addition
-<br>
-<img width="987" height="582" alt="image" src="https://github.com/user-attachments/assets/da1c80f6-b724-4254-aa37-0afd6b10650f" />
-scenerio based challenges
-<br>
-<img width="1019" height="618" alt="image" src="https://github.com/user-attachments/assets/a763738e-9ec1-4184-95b3-7c57dccd7b4e" />
-learn section
-<br>
+
+### 🏠 Home Page
+<img width="931" height="478" alt="Home Page" src="https://github.com/user-attachments/assets/e9245fbe-3d8b-492f-b9c3-0a004628b7ec" />
+
+---
+
+### ✨ Signup Page
+<img width="782" height="560" alt="Signup Page" src="https://github.com/user-attachments/assets/eed9c4e7-47e9-4204-bce7-05c18a968bb5" />
+
+---
+
+### 🔐 Login Page
+<img width="669" height="452" alt="Login Page" src="https://github.com/user-attachments/assets/19e319a1-7d74-488c-8747-ce7a65f252ef" />
+
+---
+
+### 📊 User Dashboard
+<img width="1365" height="643" alt="User Dashboard" src="https://github.com/user-attachments/assets/9dd6c988-123f-4d70-9005-c9345d6f8c2c" />
+
+---
+
+### 🤖 AI Chatbot Interface
+<img width="916" height="595" alt="AI Chatbot Interface" src="https://github.com/user-attachments/assets/537fbc6e-c07f-45b6-b40a-abb022532ffd" />
+
+---
+
+### ⚔️ Multiplayer Quiz Battle
+<img width="869" height="581" alt="Multiplayer Battle" src="https://github.com/user-attachments/assets/94196c6a-66ca-443d-95bd-f7011b9f9556" />
+
+---
+
+### 🎲 Snake & Ladders – Constitution Edition
+<img width="1067" height="651" alt="Snake and Ladders Game" src="https://github.com/user-attachments/assets/26a90281-fb7f-4958-9a30-831ff56163c9" />
+
+---
+
+### 🧠 Scenario-Based Constitutional Challenges
+<img width="987" height="582" alt="Scenario Based Challenges" src="https://github.com/user-attachments/assets/da1c80f6-b724-4254-aa37-0afd6b10650f" />
+
+---
+
+### 📚 Learn Section
+<img width="1019" height="618" alt="Learn Section" src="https://github.com/user-attachments/assets/a763738e-9ec1-4184-95b3-7c57dccd7b4e" />
+
 ---
 
 ## ✨ Features
