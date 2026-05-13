@@ -22,7 +22,7 @@ live demo: https://samvidhaan-quest-1.onrender.com
 ## 📋 Table of Contents
 
 - [About the Project](#-about-the-project)
-- [Project Screenshots](#-project-screenshots)
+- [Project Screenshots](#project-screenshots)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [API Reference](#-api-reference)
