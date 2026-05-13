@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output — don't commit, Render builds this itself
+dist/
+dist-ssr/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Vite cache
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript (if you ever add it)
+*.tsbuildinfo

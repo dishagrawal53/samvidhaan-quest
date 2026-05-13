@@ -1,0 +1,34 @@
+{
+  "size": 100,
+  "snakes": [
+    { "head": 99, "tail": 78, "name": "Article 20 Trap", "description": "You violated due process! Slide down." },
+    { "head": 87, "tail": 24, "name": "Emergency Abuse", "description": "Article 356 misused! Big fall." },
+    { "head": 62, "tail": 19, "name": "Censorship Snake", "description": "Suppressed free speech. Drop!" },
+    { "head": 54, "tail": 34, "name": "Corruption Snake", "description": "Violated equality principles. Slide." },
+    { "head": 17, "tail": 7, "name": "Discrimination Drop", "description": "Discriminated on caste. Back you go." }
+  ],
+  "ladders": [
+    { "bottom": 4, "top": 14, "name": "Right to Education", "description": "Article 21A! Climb up with knowledge." },
+    { "bottom": 9, "top": 31, "name": "Equality Ladder", "description": "Upheld Article 14. Major boost!" },
+    { "bottom": 20, "top": 38, "name": "Free Speech", "description": "Championed Article 19. Rise up!" },
+    { "bottom": 28, "top": 84, "name": "Justice Ladder", "description": "Fought for justice — Article 32. Huge jump!" },
+    { "bottom": 40, "top": 59, "name": "Democracy Boost", "description": "Participated in democracy. Climb!" },
+    { "bottom": 51, "top": 67, "name": "RTI Ladder", "description": "Exercised Right to Information. Up!" },
+    { "bottom": 63, "top": 81, "name": "Duty Fulfilled", "description": "Performed Fundamental Duty. Rewarded!" },
+    { "bottom": 71, "top": 91, "name": "Constitutional Guardian", "description": "Protected the Constitution. Soar!" }
+  ],
+  "specialTiles": [
+    { "position": 5, "type": "quiz", "topic": "fundamentalRights", "xpReward": 20, "message": "Answer a Fundamental Rights question!" },
+    { "position": 15, "type": "scenario", "scenarioId": "sc_001", "xpReward": 30, "message": "Solve a constitutional scenario!" },
+    { "position": 23, "type": "xp_bonus", "xpReward": 15, "message": "Bonus XP tile! Learned something today?" },
+    { "position": 33, "type": "quiz", "topic": "parliament", "xpReward": 20, "message": "Parliament quiz time!" },
+    { "position": 42, "type": "ai_challenge", "xpReward": 40, "message": "AI Challenge! Explain an article in your own words." },
+    { "position": 50, "type": "quiz", "topic": "judiciary", "xpReward": 20, "message": "Judiciary question ahead!" },
+    { "position": 58, "type": "scenario", "scenarioId": "sc_002", "xpReward": 30, "message": "Constitutional scenario challenge!" },
+    { "position": 66, "type": "xp_bonus", "xpReward": 25, "message": "Halfway hero bonus!" },
+    { "position": 75, "type": "quiz", "topic": "emergency", "xpReward": 20, "message": "Emergency Provisions quiz!" },
+    { "position": 82, "type": "quiz", "topic": "amendments", "xpReward": 25, "message": "Amendments question!" },
+    { "position": 90, "type": "xp_bonus", "xpReward": 30, "message": "Almost there! Bonus XP!" },
+    { "position": 95, "type": "ai_challenge", "xpReward": 50, "message": "Final AI challenge before the finish!" }
+  ]
+}

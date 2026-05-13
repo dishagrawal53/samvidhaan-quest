@@ -225,35 +225,6 @@ The PDF parser uses a **finite-state machine** detecting article boundaries via 
 
 ---
 
-## 🚢 Deployment on Render
-
-### Backend — Web Service
-
-| Setting | Value |
-|---|---|
-| Root Directory | `backend` |
-| Build Command | `npm install` |
-| Start Command | `npm run setup && node server.js` |
-
-The `setup` script auto-seeds quizzes and parses the PDF on first deploy. Subsequent deploys skip both if data already exists.
-
-### Frontend — Static Site
-
-| Setting | Value |
-|---|---|
-| Root Directory | `frontend` |
-| Build Command | `npm install && npm run build` |
-| Publish Directory | `dist` |
-
-### Environment Variables on Render
-
-**Backend:** `MONGODB_URI`, `JWT_SECRET`, `JWT_EXPIRES_IN`, `OPENROUTER_API_KEY`, `OPENROUTER_BASE_URL`, `NODE_ENV=production`, `CLIENT_URL=<frontend-url>`
-
-**Frontend:** `VITE_API_URL=https://your-backend.onrender.com/api`, `VITE_SOCKET_URL=https://your-backend.onrender.com`
-
-> ⚠️ Free tier backends spin down after 15 min inactivity. Use [UptimeRobot](https://uptimerobot.com) to ping `/api/health` every 5 minutes.
-
----
 
 ## 🗺 Roadmap
 

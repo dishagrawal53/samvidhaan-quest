@@ -1,0 +1,370 @@
+{
+  "quizzes": [
+    {
+      "title": "Fundamental Rights Basics",
+      "topic": "fundamentalRights",
+      "difficulty": "easy",
+      "xpReward": 100,
+      "questions": [
+        {
+          "question": "Which article of the Indian Constitution is called the 'Heart and Soul of the Constitution' by Dr. B.R. Ambedkar?",
+          "options": [
+            { "text": "Article 14", "isCorrect": false },
+            { "text": "Article 19", "isCorrect": false },
+            { "text": "Article 32", "isCorrect": true },
+            { "text": "Article 21", "isCorrect": false }
+          ],
+          "explanation": "Dr. Ambedkar called Article 32 the 'Heart and Soul' of the Constitution because it provides the right to move the Supreme Court for enforcement of Fundamental Rights.",
+          "articleRef": "32",
+          "xpReward": 10,
+          "difficulty": "easy",
+          "topic": "fundamentalRights"
+        },
+        {
+          "question": "Which article guarantees the Right to Life and Personal Liberty?",
+          "options": [
+            { "text": "Article 19", "isCorrect": false },
+            { "text": "Article 21", "isCorrect": true },
+            { "text": "Article 22", "isCorrect": false },
+            { "text": "Article 20", "isCorrect": false }
+          ],
+          "explanation": "Article 21 states: 'No person shall be deprived of his life or personal liberty except according to procedure established by law.' It is one of the broadest articles in the Constitution.",
+          "articleRef": "21",
+          "xpReward": 10,
+          "difficulty": "easy",
+          "topic": "fundamentalRights"
+        },
+        {
+          "question": "The Right to Property was removed as a Fundamental Right by which amendment?",
+          "options": [
+            { "text": "42nd Amendment", "isCorrect": false },
+            { "text": "44th Amendment", "isCorrect": true },
+            { "text": "86th Amendment", "isCorrect": false },
+            { "text": "73rd Amendment", "isCorrect": false }
+          ],
+          "explanation": "The 44th Constitutional Amendment Act (1978) removed the Right to Property from Fundamental Rights and made it a legal right under Article 300A.",
+          "articleRef": "300A",
+          "xpReward": 15,
+          "difficulty": "medium",
+          "topic": "fundamentalRights"
+        },
+        {
+          "question": "Which article abolishes untouchability?",
+          "options": [
+            { "text": "Article 14", "isCorrect": false },
+            { "text": "Article 15", "isCorrect": false },
+            { "text": "Article 16", "isCorrect": false },
+            { "text": "Article 17", "isCorrect": true }
+          ],
+          "explanation": "Article 17 abolishes untouchability and its practice in any form is forbidden. The Protection of Civil Rights Act, 1955 provides punishment for practicing untouchability.",
+          "articleRef": "17",
+          "xpReward": 10,
+          "difficulty": "easy",
+          "topic": "fundamentalRights"
+        },
+        {
+          "question": "Article 21A provides the Right to Education for children between which ages?",
+          "options": [
+            { "text": "5 to 12 years", "isCorrect": false },
+            { "text": "6 to 14 years", "isCorrect": true },
+            { "text": "6 to 16 years", "isCorrect": false },
+            { "text": "4 to 14 years", "isCorrect": false }
+          ],
+          "explanation": "Article 21A, inserted by the 86th Amendment (2002), provides free and compulsory education to all children between 6 to 14 years of age.",
+          "articleRef": "21A",
+          "xpReward": 10,
+          "difficulty": "easy",
+          "topic": "fundamentalRights"
+        }
+      ]
+    },
+    {
+      "title": "Parliament of India",
+      "topic": "parliament",
+      "difficulty": "medium",
+      "xpReward": 120,
+      "questions": [
+        {
+          "question": "Which house of Parliament is called the 'permanent house'?",
+          "options": [
+            { "text": "Lok Sabha", "isCorrect": false },
+            { "text": "Rajya Sabha", "isCorrect": true },
+            { "text": "Both", "isCorrect": false },
+            { "text": "Neither", "isCorrect": false }
+          ],
+          "explanation": "Rajya Sabha is called the permanent house because it is never dissolved. One-third of its members retire every two years. It represents the States and Union Territories.",
+          "articleRef": "79",
+          "xpReward": 12,
+          "difficulty": "medium",
+          "topic": "parliament"
+        },
+        {
+          "question": "A Money Bill can only be introduced in which house?",
+          "options": [
+            { "text": "Rajya Sabha", "isCorrect": false },
+            { "text": "Lok Sabha", "isCorrect": true },
+            { "text": "Either house", "isCorrect": false },
+            { "text": "Joint Session", "isCorrect": false }
+          ],
+          "explanation": "Under Article 110, a Money Bill can only be introduced in Lok Sabha. Rajya Sabha can only make recommendations (within 14 days) but cannot amend or reject it.",
+          "articleRef": "110",
+          "xpReward": 12,
+          "difficulty": "medium",
+          "topic": "parliament"
+        },
+        {
+          "question": "What is the maximum strength of Lok Sabha?",
+          "options": [
+            { "text": "500", "isCorrect": false },
+            { "text": "543", "isCorrect": false },
+            { "text": "552", "isCorrect": true },
+            { "text": "545", "isCorrect": false }
+          ],
+          "explanation": "The maximum strength of Lok Sabha is 552 — up to 530 from States, up to 20 from Union Territories, and 2 nominated (Anglo-Indian, now abolished by 104th Amendment). Currently it has 543 elected members.",
+          "articleRef": "81",
+          "xpReward": 15,
+          "difficulty": "hard",
+          "topic": "parliament"
+        },
+        {
+          "question": "The concept of 'Zero Hour' in Parliament is:",
+          "options": [
+            { "text": "First hour of the session", "isCorrect": false },
+            { "text": "The period after Question Hour for urgent matters", "isCorrect": true },
+            { "text": "Emergency session called at midnight", "isCorrect": false },
+            { "text": "Last hour of the session", "isCorrect": false }
+          ],
+          "explanation": "Zero Hour starts immediately after Question Hour (at 12 noon). It is an informal device where members can raise urgent matters of public importance. It is not mentioned in the Constitution or rules of procedure.",
+          "articleRef": "N/A",
+          "xpReward": 15,
+          "difficulty": "hard",
+          "topic": "parliament"
+        }
+      ]
+    },
+    {
+      "title": "Judiciary & Writs",
+      "topic": "judiciary",
+      "difficulty": "medium",
+      "xpReward": 120,
+      "questions": [
+        {
+          "question": "Which writ is issued to free a person from illegal detention?",
+          "options": [
+            { "text": "Mandamus", "isCorrect": false },
+            { "text": "Certiorari", "isCorrect": false },
+            { "text": "Habeas Corpus", "isCorrect": true },
+            { "text": "Quo Warranto", "isCorrect": false }
+          ],
+          "explanation": "Habeas Corpus literally means 'produce the body.' It is issued to free a person who has been illegally detained. It is available to any person on behalf of the detained person.",
+          "articleRef": "32",
+          "xpReward": 12,
+          "difficulty": "medium",
+          "topic": "judiciary"
+        },
+        {
+          "question": "The Supreme Court of India was established under which Article?",
+          "options": [
+            { "text": "Article 120", "isCorrect": false },
+            { "text": "Article 124", "isCorrect": true },
+            { "text": "Article 130", "isCorrect": false },
+            { "text": "Article 143", "isCorrect": false }
+          ],
+          "explanation": "Article 124 establishes the Supreme Court of India. It provides for the composition of the Supreme Court, appointment, and removal of judges.",
+          "articleRef": "124",
+          "xpReward": 10,
+          "difficulty": "easy",
+          "topic": "judiciary"
+        },
+        {
+          "question": "Which writ is used to challenge a person's authority to hold a public office?",
+          "options": [
+            { "text": "Mandamus", "isCorrect": false },
+            { "text": "Prohibition", "isCorrect": false },
+            { "text": "Certiorari", "isCorrect": false },
+            { "text": "Quo Warranto", "isCorrect": true }
+          ],
+          "explanation": "Quo Warranto (meaning 'by what authority') is issued to inquire into the legality of a claim of a person to a public office. It prevents illegal assumption of any public office.",
+          "articleRef": "32",
+          "xpReward": 15,
+          "difficulty": "hard",
+          "topic": "judiciary"
+        },
+        {
+          "question": "The 'Basic Structure Doctrine' was established in which landmark case?",
+          "options": [
+            { "text": "Golak Nath Case (1967)", "isCorrect": false },
+            { "text": "Maneka Gandhi Case (1978)", "isCorrect": false },
+            { "text": "Kesavananda Bharati Case (1973)", "isCorrect": true },
+            { "text": "Minerva Mills Case (1980)", "isCorrect": false }
+          ],
+          "explanation": "In Kesavananda Bharati v. State of Kerala (1973), the Supreme Court by a 7-6 majority held that Parliament cannot amend the 'basic structure' of the Constitution. This doctrine limits Parliament's amending power.",
+          "articleRef": "368",
+          "xpReward": 20,
+          "difficulty": "hard",
+          "topic": "judiciary"
+        }
+      ]
+    },
+    {
+      "title": "Emergency Provisions",
+      "topic": "emergency",
+      "difficulty": "medium",
+      "xpReward": 100,
+      "questions": [
+        {
+          "question": "Article 352 deals with which type of emergency?",
+          "options": [
+            { "text": "State Emergency (President's Rule)", "isCorrect": false },
+            { "text": "Financial Emergency", "isCorrect": false },
+            { "text": "National Emergency", "isCorrect": true },
+            { "text": "Constitutional Emergency", "isCorrect": false }
+          ],
+          "explanation": "Article 352 deals with National Emergency, which can be declared by the President if there is a grave emergency due to war, external aggression, or armed rebellion.",
+          "articleRef": "352",
+          "xpReward": 10,
+          "difficulty": "easy",
+          "topic": "emergency"
+        },
+        {
+          "question": "The term 'internal disturbance' in Article 352 was replaced by 'armed rebellion' by which amendment?",
+          "options": [
+            { "text": "42nd Amendment (1976)", "isCorrect": false },
+            { "text": "44th Amendment (1978)", "isCorrect": true },
+            { "text": "46th Amendment (1982)", "isCorrect": false },
+            { "text": "52nd Amendment (1985)", "isCorrect": false }
+          ],
+          "explanation": "The 44th Amendment (1978) replaced 'internal disturbance' with 'armed rebellion' to make it harder to declare emergency arbitrarily, as was done during the Emergency of 1975.",
+          "articleRef": "352",
+          "xpReward": 15,
+          "difficulty": "medium",
+          "topic": "emergency"
+        },
+        {
+          "question": "During National Emergency, which Fundamental Rights CANNOT be suspended?",
+          "options": [
+            { "text": "Article 19", "isCorrect": false },
+            { "text": "Article 21 only", "isCorrect": false },
+            { "text": "Articles 20 and 21", "isCorrect": true },
+            { "text": "Articles 14 and 21", "isCorrect": false }
+          ],
+          "explanation": "Articles 20 (protection against arbitrary conviction) and 21 (right to life and personal liberty) cannot be suspended even during a National Emergency, after the 44th Amendment.",
+          "articleRef": "359",
+          "xpReward": 20,
+          "difficulty": "hard",
+          "topic": "emergency"
+        }
+      ]
+    },
+    {
+      "title": "Constitutional Amendments",
+      "topic": "amendments",
+      "difficulty": "medium",
+      "xpReward": 100,
+      "questions": [
+        {
+          "question": "Which amendment is known as the 'Mini-Constitution' because of the large number of changes it made?",
+          "options": [
+            { "text": "44th Amendment", "isCorrect": false },
+            { "text": "42nd Amendment", "isCorrect": true },
+            { "text": "86th Amendment", "isCorrect": false },
+            { "text": "73rd Amendment", "isCorrect": false }
+          ],
+          "explanation": "The 42nd Amendment Act (1976), passed during Indira Gandhi's Emergency, made the most sweeping changes to the Constitution and is called the 'Mini-Constitution.' It added words to the Preamble, curtailed judicial review, and more.",
+          "articleRef": "368",
+          "xpReward": 10,
+          "difficulty": "easy",
+          "topic": "amendments"
+        },
+        {
+          "question": "The 73rd and 74th Constitutional Amendments gave constitutional status to:",
+          "options": [
+            { "text": "State Assemblies", "isCorrect": false },
+            { "text": "Panchayati Raj and Urban Local Bodies", "isCorrect": true },
+            { "text": "National Human Rights Commission", "isCorrect": false },
+            { "text": "Right to Information", "isCorrect": false }
+          ],
+          "explanation": "The 73rd Amendment (1992) gave constitutional status to Panchayati Raj institutions and the 74th Amendment gave constitutional status to urban local bodies (Municipalities), strengthening grassroots democracy.",
+          "articleRef": "243",
+          "xpReward": 12,
+          "difficulty": "medium",
+          "topic": "amendments"
+        }
+      ]
+    },
+    {
+      "title": "Daily Challenge — Constitution Basics",
+      "topic": "mixed",
+      "difficulty": "medium",
+      "xpReward": 150,
+      "isDaily": true,
+      "questions": [
+        {
+          "question": "The Constitution of India was adopted on:",
+          "options": [
+            { "text": "15th August 1947", "isCorrect": false },
+            { "text": "26th January 1950", "isCorrect": false },
+            { "text": "26th November 1949", "isCorrect": true },
+            { "text": "2nd October 1948", "isCorrect": false }
+          ],
+          "explanation": "The Constitution was adopted by the Constituent Assembly on 26th November 1949 (celebrated as Constitution Day/Samvidhan Diwas). It came into effect on 26th January 1950 (Republic Day).",
+          "xpReward": 15,
+          "difficulty": "easy",
+          "topic": "mixed"
+        },
+        {
+          "question": "Who is called the 'Father of the Indian Constitution'?",
+          "options": [
+            { "text": "Jawaharlal Nehru", "isCorrect": false },
+            { "text": "Mahatma Gandhi", "isCorrect": false },
+            { "text": "Dr. B.R. Ambedkar", "isCorrect": true },
+            { "text": "Sardar Patel", "isCorrect": false }
+          ],
+          "explanation": "Dr. B.R. Ambedkar was the Chairman of the Drafting Committee and is regarded as the principal architect and 'Father of the Indian Constitution.'",
+          "xpReward": 10,
+          "difficulty": "easy",
+          "topic": "mixed"
+        },
+        {
+          "question": "The Preamble of the Indian Constitution begins with which words?",
+          "options": [
+            { "text": "In the name of God", "isCorrect": false },
+            { "text": "We the Citizens of India", "isCorrect": false },
+            { "text": "We, the People of India", "isCorrect": true },
+            { "text": "On behalf of the People of India", "isCorrect": false }
+          ],
+          "explanation": "The Preamble begins with 'WE, THE PEOPLE OF INDIA' — emphasizing that the Constitution derives its authority from the people and not from any external source.",
+          "xpReward": 10,
+          "difficulty": "easy",
+          "topic": "mixed"
+        },
+        {
+          "question": "The Directive Principles of State Policy are contained in which Part of the Constitution?",
+          "options": [
+            { "text": "Part II", "isCorrect": false },
+            { "text": "Part III", "isCorrect": false },
+            { "text": "Part IV", "isCorrect": true },
+            { "text": "Part IVA", "isCorrect": false }
+          ],
+          "explanation": "Directive Principles of State Policy (DPSP) are in Part IV (Articles 36-51). They are non-justiciable guidelines for the State. Fundamental Rights are in Part III and Fundamental Duties are in Part IVA.",
+          "xpReward": 12,
+          "difficulty": "medium",
+          "topic": "mixed"
+        },
+        {
+          "question": "How many Fundamental Duties are listed in Article 51A?",
+          "options": [
+            { "text": "10", "isCorrect": false },
+            { "text": "11", "isCorrect": true },
+            { "text": "9", "isCorrect": false },
+            { "text": "12", "isCorrect": false }
+          ],
+          "explanation": "Article 51A lists 11 Fundamental Duties. The original 10 duties were added by the 42nd Amendment (1976). The 11th duty (providing opportunities for education to children) was added by the 86th Amendment (2002).",
+          "xpReward": 12,
+          "difficulty": "medium",
+          "topic": "mixed"
+        }
+      ]
+    }
+  ]
+}

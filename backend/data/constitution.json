@@ -1,0 +1,171 @@
+{
+  "articles": [
+    {
+      "number": 1,
+      "title": "Name and territory of the Union",
+      "content": "India, that is Bharat, shall be a Union of States. The States and the territories thereof shall be as specified in the First Schedule. The territory of India shall comprise the territories of the States, the Union territories specified in the First Schedule, and such other territories as may be acquired.",
+      "part": "I",
+      "tags": ["territory", "union", "states"]
+    },
+    {
+      "number": 12,
+      "title": "Definition of State",
+      "content": "In this Part, unless the context otherwise requires, the State includes the Government and Parliament of India and the Government and the Legislature of each of the States and all local or other authorities within the territory of India or under the control of the Government of India.",
+      "part": "III",
+      "tags": ["state", "government", "definition"]
+    },
+    {
+      "number": 13,
+      "title": "Laws inconsistent with or in derogation of the fundamental rights",
+      "content": "All laws in force in the territory of India immediately before the commencement of this Constitution, in so far as they are inconsistent with the provisions of this Part, shall, to the extent of such inconsistency, be void. The State shall not make any law which takes away or abridges the rights conferred by this Part and any law made in contravention of this clause shall, to the extent of the contravention, be void.",
+      "part": "III",
+      "tags": ["fundamental rights", "laws", "inconsistency", "void"]
+    },
+    {
+      "number": 14,
+      "title": "Equality before law",
+      "content": "The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India. This article guarantees two rights: equality before law (borrowed from English law) and equal protection of laws (borrowed from American constitution). It prohibits class legislation but permits reasonable classification.",
+      "part": "III",
+      "tags": ["equality", "fundamental rights", "law", "discrimination"]
+    },
+    {
+      "number": 15,
+      "title": "Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth",
+      "content": "The State shall not discriminate against any citizen on grounds only of religion, race, caste, sex, place of birth or any of them. No citizen shall be subject to any disability, liability, restriction or condition on grounds only of religion, race, caste, sex, place of birth or any of them. Nothing in this article shall prevent the State from making special provision for women and children.",
+      "part": "III",
+      "tags": ["discrimination", "religion", "caste", "sex", "equality", "fundamental rights"]
+    },
+    {
+      "number": 16,
+      "title": "Equality of opportunity in matters of public employment",
+      "content": "There shall be equality of opportunity for all citizens in matters relating to employment or appointment to any office under the State. No citizen shall, on grounds only of religion, race, caste, sex, descent, place of birth, residence or any of them, be ineligible for, or discriminated against in respect of, any employment or appointment under the State. Parliament may make any law prescribing, in regard to a class or classes of employment, requirements as to residence within that State or Union territory.",
+      "part": "III",
+      "tags": ["employment", "equality", "public office", "discrimination", "fundamental rights"]
+    },
+    {
+      "number": 17,
+      "title": "Abolition of Untouchability",
+      "content": "Untouchability is abolished and its practice in any form is forbidden. The enforcement of any disability arising out of Untouchability shall be an offence punishable in accordance with law. The Protection of Civil Rights Act, 1955 penalizes the practice of untouchability.",
+      "part": "III",
+      "tags": ["untouchability", "abolition", "caste", "fundamental rights"]
+    },
+    {
+      "number": 19,
+      "title": "Protection of certain rights regarding freedom of speech, etc.",
+      "content": "All citizens shall have the right to freedom of speech and expression; to assemble peaceably and without arms; to form associations or unions or co-operative societies; to move freely throughout the territory of India; to reside and settle in any part of the territory of India; and to practise any profession, or to carry on any occupation, trade or business. These rights are not absolute and can be restricted by the State on grounds of sovereignty, security, public order, decency, morality, contempt of court, defamation, or incitement to an offence.",
+      "part": "III",
+      "tags": ["freedom of speech", "assembly", "association", "movement", "fundamental rights"]
+    },
+    {
+      "number": 21,
+      "title": "Protection of life and personal liberty",
+      "content": "No person shall be deprived of his life or personal liberty except according to procedure established by law. This is one of the most important and expansive articles. The Supreme Court in Maneka Gandhi vs Union of India (1978) held that the procedure must be fair, just and reasonable. Right to life includes right to live with dignity, right to livelihood, right to health, right to education, right to privacy, and right to a clean environment.",
+      "part": "III",
+      "tags": ["life", "liberty", "personal liberty", "due process", "fundamental rights", "Article 21"]
+    },
+    {
+      "number": "21A",
+      "title": "Right to Education",
+      "content": "The State shall provide free and compulsory education to all children of the age of six to fourteen years in such manner as the State may, by law, determine. This article was inserted by the 86th Constitutional Amendment Act, 2002. The Right of Children to Free and Compulsory Education Act, 2009 (RTE Act) gives effect to this fundamental right.",
+      "part": "III",
+      "tags": ["education", "children", "free education", "fundamental rights", "86th amendment"]
+    },
+    {
+      "number": 22,
+      "title": "Protection against arrest and detention in certain cases",
+      "content": "No person who is arrested shall be detained in custody without being informed of the grounds of such arrest. Every person who is arrested and detained in custody shall be produced before the nearest magistrate within a period of twenty-four hours. No person who is arrested shall be denied the right to consult, and to be defended by, a legal practitioner of his choice.",
+      "part": "III",
+      "tags": ["arrest", "detention", "custody", "magistrate", "fundamental rights"]
+    },
+    {
+      "number": 25,
+      "title": "Freedom of conscience and free profession, practice and propagation of religion",
+      "content": "Subject to public order, morality and health and to the other provisions of this Part, all persons are equally entitled to freedom of conscience and the right freely to profess, practise and propagate religion. Nothing in this article shall affect the operation of any existing law or prevent the State from making any law regulating or restricting any economic, financial, political or other secular activity which may be associated with religious practice.",
+      "part": "III",
+      "tags": ["religion", "conscience", "freedom of religion", "fundamental rights"]
+    },
+    {
+      "number": 32,
+      "title": "Remedies for enforcement of rights conferred by this Part",
+      "content": "The right to move the Supreme Court by appropriate proceedings for the enforcement of the rights conferred by this Part is guaranteed. The Supreme Court shall have power to issue directions or orders or writs, including writs in the nature of habeas corpus, mandamus, prohibition, quo warranto and certiorari, whichever may be appropriate, for the enforcement of any of the rights conferred by this Part. Dr. B.R. Ambedkar called Article 32 'the heart and soul of the Constitution'.",
+      "part": "III",
+      "tags": ["writs", "habeas corpus", "mandamus", "Supreme Court", "enforcement", "fundamental rights", "heart of constitution"]
+    },
+    {
+      "number": 44,
+      "title": "Uniform civil code for the citizens",
+      "content": "The State shall endeavour to secure for the citizens a uniform civil code throughout the territory of India. This is a Directive Principle of State Policy. It directs the State to replace personal laws based on scriptures and customs of each major religious community with a common set governing every citizen.",
+      "part": "IV",
+      "tags": ["uniform civil code", "UCC", "directive principles", "personal law"]
+    },
+    {
+      "number": 51,
+      "title": "Promotion of international peace and security",
+      "content": "The State shall endeavour to promote international peace and security; maintain just and honourable relations between nations; foster respect for international law and treaty obligations in the dealings of organised peoples with one another; and encourage settlement of international disputes by arbitration.",
+      "part": "IV",
+      "tags": ["international peace", "directive principles", "foreign policy"]
+    },
+    {
+      "number": "51A",
+      "title": "Fundamental Duties",
+      "content": "It shall be the duty of every citizen of India to abide by the Constitution and respect its ideals and institutions, the National Flag and the National Anthem; to cherish and follow the noble ideals which inspired our national struggle for freedom; to uphold and protect the sovereignty, unity and integrity of India; to defend the country and render national service when called upon to do so; to promote harmony and the spirit of common brotherhood amongst all the people of India; to preserve the rich heritage of our composite culture; to protect and improve the natural environment; to develop the scientific temper, humanism and the spirit of inquiry and reform; to safeguard public property and to abjure violence; to strive towards excellence in all spheres of individual and collective activity; to provide opportunities for education to his child.",
+      "part": "IVA",
+      "tags": ["fundamental duties", "citizens", "national flag", "anthem", "unity", "environment"]
+    },
+    {
+      "number": 74,
+      "title": "Council of Ministers to aid and advise President",
+      "content": "There shall be a Council of Ministers with the Prime Minister at the head to aid and advise the President who shall, in the exercise of his functions, act in accordance with such advice. The President may require the Council of Ministers to reconsider such advice and the President shall act in accordance with the advice tendered after such reconsideration.",
+      "part": "V",
+      "tags": ["president", "council of ministers", "prime minister", "parliament"]
+    },
+    {
+      "number": 79,
+      "title": "Constitution of Parliament",
+      "content": "There shall be a Parliament for the Union which shall consist of the President and two Houses to be known respectively as the Council of States (Rajya Sabha) and the House of the People (Lok Sabha).",
+      "part": "V",
+      "tags": ["parliament", "Lok Sabha", "Rajya Sabha", "President", "bicameral"]
+    },
+    {
+      "number": 124,
+      "title": "Establishment and constitution of Supreme Court",
+      "content": "There shall be a Supreme Court of India consisting of a Chief Justice of India and, until Parliament by law prescribes a larger number, of not more than thirty-three other Judges. The Supreme Court is the apex court of India. Its decisions are binding on all courts within the territory of India. It has original, appellate, and advisory jurisdiction.",
+      "part": "V",
+      "tags": ["Supreme Court", "Chief Justice", "judiciary", "judges", "apex court"]
+    },
+    {
+      "number": 226,
+      "title": "Power of High Courts to issue certain writs",
+      "content": "Every High Court shall have power, throughout the territories in relation to which it exercises jurisdiction, to issue to any person or authority, including in appropriate cases, any Government, within those territories directions, orders or writs, including writs in the nature of habeas corpus, mandamus, certiorari, prohibition and quo-warranto.",
+      "part": "VI",
+      "tags": ["High Court", "writs", "habeas corpus", "judiciary"]
+    },
+    {
+      "number": 352,
+      "title": "Proclamation of Emergency",
+      "content": "If the President is satisfied that a grave emergency exists whereby the security of India or of any part of the territory thereof is threatened, whether by war or external aggression or armed rebellion, he may, by Proclamation, make a declaration to that effect in respect of the whole of India or of such part of the territory thereof as may be specified in the Proclamation. A Proclamation of Emergency declaring that the security of India is threatened by war or external aggression or armed rebellion shall require to be approved by resolutions of both Houses of Parliament.",
+      "part": "XVIII",
+      "tags": ["emergency", "national emergency", "president", "armed rebellion", "war"]
+    },
+    {
+      "number": 356,
+      "title": "Provisions in case of failure of constitutional machinery in State",
+      "content": "If the President, on receipt of report from the Governor of the State or otherwise, is satisfied that the government of the State cannot be carried on in accordance with the provisions of this Constitution, the President may by Proclamation assume to himself all or any of the functions of the Government of the State. This is commonly called President's Rule or State Emergency.",
+      "part": "XVIII",
+      "tags": ["president's rule", "state emergency", "governor", "Article 356"]
+    },
+    {
+      "number": 368,
+      "title": "Power of Parliament to amend the Constitution and procedure therefor",
+      "content": "Notwithstanding anything in this Constitution, Parliament may in exercise of its constituent power amend by way of addition, variation or repeal any provision of this Constitution in accordance with the procedure laid down in this Article. The Supreme Court in Kesavananda Bharati case (1973) held that Parliament cannot amend the basic structure of the Constitution.",
+      "part": "XX",
+      "tags": ["amendment", "parliament", "basic structure", "Kesavananda Bharati"]
+    },
+    {
+      "title": "Preamble",
+      "content": "WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC and to secure to all its citizens: JUSTICE, social, economic and political; LIBERTY of thought, expression, belief, faith and worship; EQUALITY of status and of opportunity; and to promote among them all FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation. The words 'Socialist', 'Secular', and 'Integrity' were added by the 42nd Constitutional Amendment Act, 1976.",
+      "part": "Preamble",
+      "tags": ["preamble", "sovereign", "socialist", "secular", "democratic", "republic", "justice", "liberty", "equality", "fraternity"]
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "topics": [
+    {
+      "id": "preamble",
+      "title": "The Preamble",
+      "description": "The soul of the Indian Constitution",
+      "icon": "🇮🇳",
+      "color": "#7F77DD",
+      "articleRange": "Preamble",
+      "xpReward": 50,
+      "lessons": [
+        {
+          "id": "preamble_1",
+          "title": "What is the Preamble?",
+          "content": "The Preamble is the introductory statement of the Constitution. It was described by Dr. B.R. Ambedkar as 'the key to open the minds of the makers.' It declares India to be a Sovereign Socialist Secular Democratic Republic.",
+          "keyPoints": [
+            "Adopted on 26th November, 1949",
+            "Contains the objectives of the Constitution",
+            "Not enforceable in court but guides interpretation",
+            "42nd Amendment (1976) added 'Socialist', 'Secular', and 'Integrity'"
+          ]
+        },
+        {
+          "id": "preamble_2",
+          "title": "Key Words in the Preamble",
+          "content": "SOVEREIGN means India is free from external control. SOCIALIST means reducing inequality and providing basic needs. SECULAR means no state religion. DEMOCRATIC means government by elected representatives. REPUBLIC means elected head of state.",
+          "keyPoints": [
+            "Sovereign: No external authority over India",
+            "Socialist: Economic and social justice for all",
+            "Secular: Equal respect for all religions",
+            "Democratic: People are the source of power",
+            "Republic: No hereditary ruler"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fundamentalRights",
+      "title": "Fundamental Rights",
+      "description": "Your constitutional protections (Articles 12-35)",
+      "icon": "⚖️",
+      "color": "#1D9E75",
+      "articleRange": "Articles 12-35",
+      "xpReward": 100,
+      "lessons": [
+        {
+          "id": "fr_1",
+          "title": "Overview of Fundamental Rights",
+          "content": "Part III of the Constitution (Articles 12-35) guarantees six fundamental rights. These are justiciable rights — meaning you can go to court if they are violated. They protect individuals against the arbitrary actions of the State.",
+          "keyPoints": [
+            "6 Fundamental Rights exist (originally 7 — right to property removed in 1978)",
+            "Enforceable against the State (Article 12)",
+            "Article 32 — 'heart and soul' of the Constitution",
+            "Can be suspended during National Emergency (except Art. 20 & 21)"
+          ]
+        },
+        {
+          "id": "fr_2",
+          "title": "Right to Equality (Articles 14-18)",
+          "content": "Article 14 guarantees equality before law and equal protection of laws. Article 15 prohibits discrimination based on religion, race, caste, sex, or place of birth. Article 16 ensures equal opportunity in public employment. Article 17 abolishes untouchability. Article 18 abolishes titles.",
+          "keyPoints": [
+            "Art. 14: Equality before law",
+            "Art. 15: No discrimination on religion/race/caste/sex",
+            "Art. 16: Equal opportunity in public employment",
+            "Art. 17: Untouchability abolished",
+            "Art. 18: No titles (except military/academic)"
+          ]
+        },
+        {
+          "id": "fr_3",
+          "title": "Right to Freedom (Articles 19-22)",
+          "content": "Article 19 gives 6 freedoms: speech, assembly, association, movement, residence, and profession. Article 20 protects against ex-post facto laws and double jeopardy. Article 21 protects life and personal liberty. Article 21A gives right to education. Article 22 gives protection from arbitrary arrest.",
+          "keyPoints": [
+            "Art. 19: 6 Freedoms (speech, assembly, etc.)",
+            "Art. 20: Protection against arbitrary conviction",
+            "Art. 21: Right to life and personal liberty",
+            "Art. 21A: Free education (6-14 years)",
+            "Art. 22: Protection from arrest"
+          ]
+        },
+        {
+          "id": "fr_4",
+          "title": "Right against Exploitation (Articles 23-24)",
+          "content": "Article 23 prohibits trafficking of human beings and forced labour (begar). Article 24 prohibits employment of children below 14 years in factories, mines, and other hazardous jobs.",
+          "keyPoints": [
+            "Art. 23: No trafficking, no forced labour",
+            "Art. 24: No child labour (below 14) in hazardous work",
+            "Child Labour Act, 1986 reinforces Art. 24"
+          ]
+        },
+        {
+          "id": "fr_5",
+          "title": "Right to Freedom of Religion (Articles 25-28)",
+          "content": "Article 25 gives freedom of conscience and right to profess, practise and propagate religion. Article 26 gives freedom to manage religious affairs. Article 27 says no taxes for promotion of religion. Article 28 says no religious instruction in State-funded schools.",
+          "keyPoints": [
+            "Art. 25: Freedom of religion",
+            "Art. 26: Manage religious institutions",
+            "Art. 27: No tax for religious promotion",
+            "Art. 28: No religious instruction in government schools"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fundamentalDuties",
+      "title": "Fundamental Duties",
+      "description": "The responsibilities of every Indian citizen (Article 51A)",
+      "icon": "🤝",
+      "color": "#D85A30",
+      "articleRange": "Article 51A",
+      "xpReward": 50,
+      "lessons": [
+        {
+          "id": "fd_1",
+          "title": "What are Fundamental Duties?",
+          "content": "Fundamental Duties were added by the 42nd Amendment (1976) based on the Swaran Singh Committee recommendations. Article 51A lists 11 duties. They are non-justiciable (cannot be enforced in court) but serve as moral obligations.",
+          "keyPoints": [
+            "Added by 42nd Amendment Act, 1976",
+            "11 duties listed in Article 51A",
+            "10th duty added by 86th Amendment, 2002",
+            "Inspired by USSR Constitution",
+            "Non-justiciable but morally binding"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parliament",
+      "title": "Parliament of India",
+      "description": "How our legislative system works (Articles 79-122)",
+      "icon": "🏛️",
+      "color": "#378ADD",
+      "articleRange": "Articles 79-122",
+      "xpReward": 100,
+      "lessons": [
+        {
+          "id": "parl_1",
+          "title": "Structure of Parliament",
+          "content": "Parliament consists of the President, Lok Sabha (House of the People), and Rajya Sabha (Council of States). Lok Sabha has 543 elected members (+ 2 Anglo-Indians, now abolished). Rajya Sabha has 245 members (233 elected + 12 nominated). Parliament meets in the Central Hall of Parliament House in New Delhi.",
+          "keyPoints": [
+            "Bicameral Legislature",
+            "Lok Sabha: 543 directly elected members",
+            "Rajya Sabha: 245 members",
+            "President is part of Parliament",
+            "Sessions: Budget, Monsoon, Winter"
+          ]
+        },
+        {
+          "id": "parl_2",
+          "title": "Lok Sabha vs Rajya Sabha",
+          "content": "Lok Sabha is the lower house, directly elected by people every 5 years. Rajya Sabha is the upper house, permanent body (never dissolved), with 1/3rd members retiring every 2 years. In case of conflict, Lok Sabha's will prevails in most matters. Only Lok Sabha can introduce Money Bills.",
+          "keyPoints": [
+            "Lok Sabha: 5-year term, can be dissolved",
+            "Rajya Sabha: Permanent, 6-year terms",
+            "Money Bills: Only in Lok Sabha",
+            "Rajya Sabha gives states representation",
+            "Joint sitting to resolve deadlocks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "judiciary",
+      "title": "The Judiciary",
+      "description": "Supreme Court, High Courts, and the judicial system",
+      "icon": "👨‍⚖️",
+      "color": "#BA7517",
+      "articleRange": "Articles 124-237",
+      "xpReward": 100,
+      "lessons": [
+        {
+          "id": "jud_1",
+          "title": "Supreme Court of India",
+          "content": "Established under Article 124, the Supreme Court is the apex court of India. The Chief Justice of India heads it. It has original, appellate, and advisory jurisdiction. Its decisions are binding on all courts. It acts as the guardian of the Constitution.",
+          "keyPoints": [
+            "Established by Art. 124",
+            "Chief Justice of India — highest judicial officer",
+            "Judges: CJI + up to 33 judges (raised to 34 in 2019)",
+            "Writs under Article 32: habeas corpus, mandamus, etc.",
+            "Decisions binding on all courts"
+          ]
+        },
+        {
+          "id": "jud_2",
+          "title": "Writs — Your Legal Shield",
+          "content": "Writs are written orders from Supreme Court or High Court. Habeas Corpus: 'produce the body' — against illegal detention. Mandamus: 'we command' — orders public official to do their duty. Prohibition: stops lower courts from exceeding jurisdiction. Certiorari: quashes orders of lower courts. Quo Warranto: challenges authority of a person to hold public office.",
+          "keyPoints": [
+            "Habeas Corpus: Against illegal detention",
+            "Mandamus: Order to perform duty",
+            "Prohibition: Stop lower court from exceeding power",
+            "Certiorari: Quash illegal orders",
+            "Quo Warranto: Challenge public office holder"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "title": "Emergency Provisions",
+      "description": "When the Constitution suspends normal functioning",
+      "icon": "🚨",
+      "color": "#E24B4A",
+      "articleRange": "Articles 352-360",
+      "xpReward": 100,
+      "lessons": [
+        {
+          "id": "em_1",
+          "title": "Three Types of Emergencies",
+          "content": "Article 352: National Emergency — war, external aggression, or armed rebellion. Article 356: President's Rule (State Emergency) — failure of constitutional machinery in a state. Article 360: Financial Emergency — threat to financial stability of India.",
+          "keyPoints": [
+            "Art. 352: National Emergency (war/armed rebellion)",
+            "Art. 356: President's Rule in states",
+            "Art. 360: Financial Emergency",
+            "44th Amendment (1978) replaced 'internal disturbance' with 'armed rebellion'",
+            "National Emergency proclaimed 3 times: 1962, 1971, 1975"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amendments",
+      "title": "Constitutional Amendments",
+      "description": "How the Constitution changes and evolves (Article 368)",
+      "icon": "📝",
+      "color": "#9FE1CB",
+      "articleRange": "Article 368",
+      "xpReward": 75,
+      "lessons": [
+        {
+          "id": "am_1",
+          "title": "Amendment Process",
+          "content": "Article 368 governs constitutional amendments. Three methods: Simple majority (some provisions), Special majority (2/3 of members present and voting + majority of total strength of each house), Special majority + ratification by half the states (federal provisions).",
+          "keyPoints": [
+            "Art. 368: Power to amend",
+            "Simple majority: Citizenship, elections, etc.",
+            "Special majority (2/3): Most provisions",
+            "Special majority + state ratification: Federal provisions",
+            "Kesavananda Bharati (1973): Basic structure cannot be amended"
+          ]
+        },
+        {
+          "id": "am_2",
+          "title": "Key Amendments",
+          "content": "1st Amendment (1951): Exceptions to freedom of speech. 42nd Amendment (1976): Added 'Socialist', 'Secular', 'Integrity' to Preamble. 44th Amendment (1978): Restored rights curtailed by 42nd. 73rd/74th Amendments (1992): Gave constitutional status to Panchayats and Municipalities. 86th Amendment (2002): Right to Education.",
+          "keyPoints": [
+            "42nd: 'Mini-Constitution', most changes",
+            "44th: Undid many 42nd changes",
+            "73rd/74th: Local self-government",
+            "86th: Free education 6-14 years",
+            "101st: GST (2016)"
+          ]
+        }
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "sc_001",
+      "title": "Religious Discrimination in Admission",
+      "description": "A private school funded by government grants denies admission to a student solely because of their religion.",
+      "difficulty": "easy",
+      "correctArticle": "15",
+      "correctPrinciple": "Right to Equality",
+      "explanation": "Article 15 prohibits discrimination on grounds of religion, race, caste, sex, or place of birth. Since the school receives government funding, it is subject to this restriction.",
+      "articles": ["14", "15", "16", "21"],
+      "principles": ["Right to Equality", "Right to Life", "Right to Education", "Freedom of Religion"]
+    },
+    {
+      "id": "sc_002",
+      "title": "Arrest Without Information",
+      "description": "Police arrest a person at midnight and refuse to tell them why they are being arrested or allow them to speak to a lawyer.",
+      "difficulty": "easy",
+      "correctArticle": "22",
+      "correctPrinciple": "Right to Freedom",
+      "explanation": "Article 22 guarantees that every arrested person must be informed of the grounds of arrest, produced before a magistrate within 24 hours, and given the right to consult a lawyer.",
+      "articles": ["20", "21", "22", "32"],
+      "principles": ["Right to Equality", "Right to Life", "Right to Freedom", "Right against Exploitation"]
+    },
+    {
+      "id": "sc_003",
+      "title": "Child Labour in Factory",
+      "description": "A factory owner employs 12-year-old children in a chemical manufacturing plant.",
+      "difficulty": "easy",
+      "correctArticle": "24",
+      "correctPrinciple": "Right against Exploitation",
+      "explanation": "Article 24 explicitly prohibits employment of children below 14 years in factories, mines, or any hazardous employment. This is a Fundamental Right, making it directly enforceable.",
+      "articles": ["21", "23", "24", "21A"],
+      "principles": ["Right to Life", "Right to Freedom", "Right against Exploitation", "Right to Education"]
+    },
+    {
+      "id": "sc_004",
+      "title": "Government Blocks News Channel",
+      "description": "A state government orders a news channel to stop broadcasting reports critical of the Chief Minister.",
+      "difficulty": "medium",
+      "correctArticle": "19",
+      "correctPrinciple": "Right to Freedom",
+      "explanation": "Article 19(1)(a) guarantees freedom of speech and expression, which includes freedom of the press. The State cannot restrict this except on grounds mentioned in Article 19(2) — sovereignty, security, public order, decency, or contempt of court.",
+      "articles": ["14", "19", "21", "32"],
+      "principles": ["Right to Equality", "Right to Freedom", "Right to Life", "Freedom of Religion"]
+    },
+    {
+      "id": "sc_005",
+      "title": "State Imposes Religion in Schools",
+      "description": "A state government makes it mandatory for all government school students to attend daily prayers of a particular religion.",
+      "difficulty": "medium",
+      "correctArticle": "28",
+      "correctPrinciple": "Freedom of Religion",
+      "explanation": "Article 28 states that no religious instruction shall be provided in any educational institution wholly maintained out of State funds. This directly violates the secular principle.",
+      "articles": ["25", "26", "27", "28"],
+      "principles": ["Right to Equality", "Right to Freedom", "Freedom of Religion", "Right against Exploitation"]
+    }
+  ]
+}

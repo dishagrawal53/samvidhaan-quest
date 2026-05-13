@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background-color: #0F0F1A;
+    color: #E8E8F0;
+    font-family: 'Inter', system-ui, sans-serif;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: #1A1A2E; }
+  ::-webkit-scrollbar-thumb { background: #2D2D4A; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #5b72f2; }
+}
+
+@layer components {
+  .card {
+    @apply bg-dark-card border border-dark-border rounded-2xl;
+  }
+  .card-hover {
+    @apply card transition-all duration-200 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 cursor-pointer;
+  }
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-dark text-white font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:shadow-lg hover:shadow-primary/30 active:scale-95;
+  }
+  .btn-secondary {
+    @apply border border-dark-border hover:border-primary/50 text-dark-text font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:bg-primary/5 active:scale-95;
+  }
+  .btn-ghost {
+    @apply text-dark-muted hover:text-dark-text px-4 py-2 rounded-lg transition-all duration-200 hover:bg-dark-cardlight;
+  }
+  .input {
+    @apply bg-dark-card border border-dark-border rounded-xl px-4 py-3 text-dark-text placeholder-dark-muted focus:outline-none focus:border-primary transition-colors w-full;
+  }
+  .badge-xp {
+    @apply bg-yellow-500/10 border border-yellow-500/30 text-yellow-400 text-xs font-bold px-3 py-1 rounded-full;
+  }
+  .badge-easy { @apply bg-green-500/15 text-green-400 text-xs font-bold px-2 py-1 rounded-full; }
+  .badge-medium { @apply bg-yellow-500/15 text-yellow-400 text-xs font-bold px-2 py-1 rounded-full; }
+  .badge-hard { @apply bg-red-500/15 text-red-400 text-xs font-bold px-2 py-1 rounded-full; }
+
+  .gradient-primary { background: linear-gradient(135deg, #5b72f2, #3440cb); }
+  .gradient-saffron { background: linear-gradient(135deg, #FF9933, #e67300); }
+  .gradient-teal { background: linear-gradient(135deg, #1D9E75, #0F6E56); }
+  .gradient-purple { background: linear-gradient(135deg, #7F77DD, #534AB7); }
+
+  .xp-bar-fill { transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1); }
+  .option-btn { @apply w-full text-left p-4 rounded-xl border border-dark-border bg-dark-card hover:border-primary/50 transition-all duration-150 cursor-pointer; }
+  .option-correct { @apply border-accent bg-accent/10 !important; }
+  .option-wrong { @apply border-danger bg-danger/10 !important; }
+  .option-selected { @apply border-primary bg-primary/10; }
+}
+
+.toast-dark {
+  background: #1A1A2E !important;
+  color: #E8E8F0 !important;
+  border: 1px solid #2D2D4A !important;
+}
