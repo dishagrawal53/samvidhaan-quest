@@ -2,7 +2,8 @@
 
 > **A gamified, AI-powered platform to learn the Constitution of India**
 > *Making civic education feel like playing a game — quizzes, Snake & Ladders, live multiplayer battles, and an AI tutor grounded in the actual Constitution PDF.*
-
+---
+live -demo https://samvidhaan-quest-1.onrender.com
 ---
 
 <div align="center">
@@ -49,18 +50,18 @@ Users earn XP, level up from *Citizen* to *Constitutional Expert*, battle friend
 
 | Feature | Description |
 |---|---|
-| 🔐 **Authentication** | JWT-based signup, login, persistent sessions, guest mode |
-| 🏠 **Home Dashboard** | XP, level, streak, badges, daily challenge card, quick actions |
-| 📚 **Learn Module** | 7 topics with expandable lessons, key points, and article references |
-| ⚖️ **Scenario Challenges** | Apply rights to real-life situations, pick the violated article |
-| 🎯 **Quiz System** | MCQs with 30s timer, difficulty levels, XP rewards, instant feedback |
-| 📅 **Daily Challenge** | Fresh quiz every day, maintains login streak |
-| 🐍 **Snake & Ladders** | Animated board game with quiz tiles, XP bonuses, snake and ladder events |
-| 👥 **Multiplayer Battles** | Socket.IO live quiz rooms, synchronized questions, real-time scores |
-| 🤖 **AI Chatbot (Vidhi)** | RAG-based AI tutor grounded in the official Constitution PDF |
-| 🏆 **Leaderboard** | Global rankings by XP, streak, and multiplayer wins |
-| 👤 **Profile** | Stats, badges, completed topics, recent activity |
-| 🎖️ **Gamification** | XP, levels, streaks, 7 badge types, achievement popups |
+|  **Authentication** | JWT-based signup, login, persistent sessions, guest mode |
+|  **Home Dashboard** | XP, level, streak, badges, daily challenge card, quick actions |
+|  **Learn Module** | 7 topics with expandable lessons, key points, and article references |
+|  **Scenario Challenges** | Apply rights to real-life situations, pick the violated article |
+|  **Quiz System** | MCQs with 30s timer, difficulty levels, XP rewards, instant feedback |
+|  **Daily Challenge** | Fresh quiz every day, maintains login streak |
+|  **Snake & Ladders** | Animated board game with quiz tiles, XP bonuses, snake and ladder events |
+|  **Multiplayer Battles** | Socket.IO live quiz rooms, synchronized questions, real-time scores |
+|  **AI Chatbot (Vidhi)** | RAG-based AI tutor grounded in the official Constitution PDF |
+|  **Leaderboard** | Global rankings by XP, streak, and multiplayer wins |
+|  **Profile** | Stats, badges, completed topics, recent activity |
+|  **Gamification** | XP, levels, streaks, 7 badge types, achievement popups |
 
 ---
 
