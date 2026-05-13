@@ -32,7 +32,7 @@
 - [AI Chatbot — RAG Pipeline](#-ai-chatbot--rag-pipeline)
 - [Deployment on Render](#-deployment-on-render)
 - [Roadmap](#-roadmap)
-- [License](#-license)
+
 
 ---
 
@@ -455,13 +455,7 @@ git push origin feature/your-feature
 To add quiz questions: edit `backend/data/quizData.json` then run `npm run seed`.
 To add topics or scenarios: edit `backend/data/topicsData.json`.
 
----
 
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
 
 <div align="center">
 
