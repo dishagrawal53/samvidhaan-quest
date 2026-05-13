@@ -17,7 +17,7 @@ export function LoginPage() {
     clearError()
     const result = await login(email.trim().toLowerCase(), password)
     if (result.success) {
-      toast.success('Welcome back! 👋')
+      toast.success('Welcome back!')
       navigate('/home')
     } else {
       toast.error(result.error)
@@ -32,7 +32,7 @@ export function LoginPage() {
         </Link>
 
         <div className="text-center mb-8">
-          <div className="text-5xl mb-3">👋</div>
+          
           <h2 className="text-3xl font-black text-white">Welcome back!</h2>
           <p className="text-dark-muted mt-2">Sign in to continue your journey</p>
         </div>
@@ -102,7 +102,6 @@ export function SignupPage() {
         </Link>
 
         <div className="text-center mb-8">
-          <div className="text-5xl mb-3">🎓</div>
           <h2 className="text-3xl font-black text-white">Join the Quest!</h2>
           <p className="text-dark-muted mt-2">Start your constitutional journey today</p>
         </div>
@@ -142,7 +141,7 @@ export function SignupPage() {
             )}
           </div>
           <button type="submit" disabled={isLoading} className="btn-primary w-full py-4 text-base mt-2">
-            {isLoading ? 'Creating account...' : 'Create Account 🚀'}
+            {isLoading ? 'Creating account...' : 'Create Account '}
           </button>
           <p className="text-dark-muted text-xs text-center">No spam, ever. No ads, ever.</p>
         </form>

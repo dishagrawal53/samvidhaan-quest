@@ -26,7 +26,7 @@ export default function LearnPage() {
         onClick={() => navigate('/scenarios')}
         className="w-full mb-6 p-5 rounded-2xl gradient-purple text-left hover:opacity-90 transition-opacity flex items-center gap-4"
       >
-        <span className="text-3xl">⚖️</span>
+       
         <div className="flex-1">
           <p className="text-white font-bold">Scenario Challenges</p>
           <p className="text-white/70 text-sm">Apply constitutional rights to real-life situations</p>

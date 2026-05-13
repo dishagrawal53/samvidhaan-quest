@@ -22,7 +22,7 @@ export function QuizResultPage() {
   if (!result) return null
 
   const scoreColor = result.score >= 90 ? 'text-yellow-400' : result.score >= 70 ? 'text-accent' : result.score >= 50 ? 'text-warning' : 'text-danger'
-  const emoji = result.score >= 90 ? '🏆' : result.score >= 70 ? '🎉' : result.score >= 50 ? '👍' : '📚'
+  const emoji = result.score >= 90 ? '' : result.score >= 70 ? '' : result.score >= 50 ? '' : ''
   const message = result.score >= 90 ? 'Outstanding!' : result.score >= 70 ? 'Great job!' : result.score >= 50 ? 'Keep it up!' : 'Keep learning!'
 
   return (
@@ -54,7 +54,7 @@ export function QuizResultPage() {
 
       {result.newBadges?.length > 0 && (
         <div className="card p-5 space-y-3">
-          <p className="text-yellow-400 font-bold">🎖️ New Badges!</p>
+          <p className="text-yellow-400 font-bold"> New Badges!</p>
           {result.newBadges.map(b => (
             <div key={b.id} className="flex items-center gap-3">
               <span className="text-3xl">{b.icon}</span>
@@ -114,7 +114,7 @@ export function DailyChallengePage() {
     <div className="max-w-lg mx-auto">
       <button onClick={() => navigate(-1)} className="text-dark-muted hover:text-white text-sm mb-6 transition-colors">← Back</button>
       <div className="card p-8 text-center space-y-6">
-        <div className="text-7xl">📅</div>
+        
         <div>
           <h1 className="text-white text-2xl font-black">{quiz?.title || 'Daily Challenge'}</h1>
           <p className="text-dark-muted mt-2">Complete today's challenge to maintain your streak!</p>
@@ -130,7 +130,7 @@ export function DailyChallengePage() {
         </div>
         {alreadyDone ? (
           <div className="bg-accent/10 border border-accent/30 rounded-2xl p-6 space-y-2">
-            <div className="text-5xl">✅</div>
+          
             <p className="text-accent font-bold text-lg">Already completed today!</p>
             <p className="text-dark-muted text-sm">Come back tomorrow for a new challenge</p>
           </div>
@@ -139,7 +139,7 @@ export function DailyChallengePage() {
             onClick={() => navigate(`/quiz/${quiz?._id}`, { state: { mode: 'daily' } })}
             className="w-full py-4 text-lg font-bold rounded-xl text-white gradient-saffron hover:opacity-90 transition-opacity"
           >
-            Start Daily Challenge 🚀
+            Start Daily Challenge 
           </button>
         )}
       </div>

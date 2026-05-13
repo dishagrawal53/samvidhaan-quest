@@ -63,7 +63,6 @@ export default function HomePage() {
             <h2 className="text-white text-xl font-black">{user?.levelTitle || levelInfo.title}</h2>
           </div>
           <div className="text-right">
-            <p className="text-yellow-400 font-black text-2xl">⭐ {user?.xp?.toLocaleString()}</p>
             <p className="text-dark-muted text-xs">Total XP</p>
           </div>
         </div>
@@ -108,7 +107,7 @@ export default function HomePage() {
 
       {/* Quick actions */}
       <motion.div variants={item}>
-        <h2 className="text-white font-bold mb-3">⚡ Quick Play</h2>
+        <h2 className="text-white font-bold mb-3"> Quick Play</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
           {quickActions.map((a) => (
             <button
@@ -128,7 +127,7 @@ export default function HomePage() {
       {topics.length > 0 && (
         <motion.div variants={item}>
           <div className="flex items-center justify-between mb-3">
-            <h2 className="text-white font-bold">📚 Continue Learning</h2>
+            <h2 className="text-white font-bold">Continue Learning</h2>
             <button onClick={() => navigate('/learn')} className="text-primary text-sm hover:underline">See all →</button>
           </div>
           <div className="grid sm:grid-cols-2 gap-3">
@@ -157,7 +156,7 @@ export default function HomePage() {
       {/* Badges */}
       {user?.badges?.length > 0 && (
         <motion.div variants={item}>
-          <h2 className="text-white font-bold mb-3">🎖️ Recent Badges</h2>
+          <h2 className="text-white font-bold mb-3"> Recent Badges</h2>
           <div className="flex gap-3 overflow-x-auto pb-2">
             {user.badges.slice(-6).map((badge) => (
               <div key={badge.id} className="card flex-shrink-0 p-4 flex flex-col items-center gap-2 w-28">

@@ -87,7 +87,7 @@ export default function QuizPage() {
     return (
       <div className="flex items-center justify-center min-h-96">
         <div className="text-center space-y-3">
-          <div className="text-5xl">🎯</div>
+      
           <p className="text-white font-bold text-lg">Loading quiz...</p>
         </div>
       </div>
@@ -183,7 +183,7 @@ export default function QuizPage() {
             className={`fixed bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-3 px-6 py-4 rounded-2xl border font-bold text-lg z-50
               ${feedback.isCorrect ? 'bg-accent/20 border-accent text-white' : 'bg-danger/20 border-danger text-white'}`}
           >
-            {feedback.isCorrect ? '🎉 Correct!' : '❌ Wrong!'}
+            {feedback.isCorrect ? ' Correct!' : ' Wrong!'}
           </motion.div>
         )}
       </AnimatePresence>

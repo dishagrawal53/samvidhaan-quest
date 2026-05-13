@@ -31,7 +31,7 @@ export default function TopicDetailPage() {
       await learnAPI.markComplete(topicId)
       addXP(topic.xpReward)
       setTopic(t => ({ ...t, completed: true }))
-      toast.success(`Topic complete! +${topic.xpReward} XP 🎉`)
+      toast.success(`Topic complete! +${topic.xpReward} XP `)
     } catch (e) { toast.error('Failed to mark complete') }
   }
 
@@ -124,7 +124,7 @@ export default function TopicDetailPage() {
       {/* Quizzes */}
       {quizzes.length > 0 && (
         <div>
-          <h2 className="text-white font-bold mb-3">🎯 Practice Quizzes</h2>
+          <h2 className="text-white font-bold mb-3"> Practice Quizzes</h2>
           <div className="space-y-2">
             {quizzes.map((quiz) => (
               <button

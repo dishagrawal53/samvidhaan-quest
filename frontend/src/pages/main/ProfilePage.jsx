@@ -23,7 +23,7 @@ export default function ProfilePage() {
 
   const handleLogout = () => {
     logout()
-    toast.success('Logged out. See you soon! 👋')
+    toast.success('Logged out. See you soon! ')
     navigate('/')
   }
 
@@ -55,7 +55,7 @@ export default function ProfilePage() {
             <LevelBadge level={user?.level || 1} title={user?.levelTitle} />
           </div>
           <div className="text-right">
-            <p className="text-yellow-400 font-black text-2xl">⭐ {user?.xp?.toLocaleString()}</p>
+        
             <p className="text-dark-muted text-xs">Total XP</p>
           </div>
         </div>
@@ -77,7 +77,7 @@ export default function ProfilePage() {
 
       {/* Badges */}
       <div>
-        <h2 className="text-white font-bold mb-3">🎖️ Badges ({user?.badges?.length || 0})</h2>
+        <h2 className="text-white font-bold mb-3"> Badges ({user?.badges?.length || 0})</h2>
         {!user?.badges?.length ? (
           <div className="card p-8 text-center text-dark-muted">Complete quizzes to earn badges!</div>
         ) : (
@@ -97,7 +97,7 @@ export default function ProfilePage() {
       {/* Completed topics */}
       {user?.completedTopics?.length > 0 && (
         <div>
-          <h2 className="text-white font-bold mb-3">✅ Completed Topics</h2>
+          <h2 className="text-white font-bold mb-3"> Completed Topics</h2>
           <div className="flex flex-wrap gap-2">
             {user.completedTopics.map(id => {
               const topic = TOPICS[id]
@@ -121,7 +121,7 @@ export default function ProfilePage() {
           <div className="space-y-2">
             {stats.recentResults.map((r, i) => (
               <div key={i} className="card p-4 flex items-center gap-4">
-                <span className="text-2xl">{r.score >= 80 ? '🌟' : r.score >= 60 ? '✅' : '📝'}</span>
+               
                 <div className="flex-1">
                   <p className="text-white font-semibold text-sm">{r.quiz?.title || r.topic || 'Quiz'}</p>
                   <p className="text-dark-muted text-xs">{r.correctAnswers}/{r.totalQuestions} correct</p>
@@ -138,10 +138,10 @@ export default function ProfilePage() {
         <h2 className="text-white font-bold mb-3">⚡ Quick Actions</h2>
         <div className="grid grid-cols-2 gap-3">
           {[
-            { label: 'Ask Vidhi AI', icon: '🤖', to: '/chat' },
-            { label: 'Daily Challenge', icon: '📅', to: '/daily' },
-            { label: 'Multiplayer', icon: '👥', to: '/game/multiplayer' },
-            { label: 'Scenarios', icon: '⚖️', to: '/scenarios' },
+            { label: 'Ask Vidhi AI', icon: '', to: '/chat' },
+            { label: 'Daily Challenge', icon: '', to: '/daily' },
+            { label: 'Multiplayer', icon: '', to: '/game/multiplayer' },
+            { label: 'Scenarios', icon: '', to: '/scenarios' },
           ].map(item => (
             <button key={item.label} onClick={() => navigate(item.to)}
               className="card-hover p-4 flex items-center gap-3 text-left">

@@ -68,7 +68,7 @@ export default function ScenarioPage() {
         <p className="text-dark-muted">You completed all scenario challenges</p>
         <div className="badge-xp text-lg px-6 py-3 inline-block">Total XP: +{totalXP}</div>
         <button onClick={() => { setIndex(0); setDone(false); setTotalXP(0) }} className="btn-primary w-full py-4">
-          Play Again 🔄
+          Play Again 
         </button>
       </div>
     )
@@ -77,7 +77,7 @@ export default function ScenarioPage() {
   if (!scenarios.length) {
     return (
       <div className="text-center py-16 text-dark-muted">
-        <div className="text-5xl mb-4">⚖️</div>
+ 
         <p>No scenarios available yet.</p>
       </div>
     )
