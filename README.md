@@ -3,7 +3,7 @@
 > **A gamified, AI-powered platform to learn the Constitution of India**
 > *Making civic education feel like playing a game — quizzes, Snake & Ladders, live multiplayer battles, and an AI tutor grounded in the actual Constitution PDF.*
 ---
-live -demo https://samvidhaan-quest-1.onrender.com
+live demo: https://samvidhaan-quest-1.onrender.com
 ---
 
 <div align="center">
