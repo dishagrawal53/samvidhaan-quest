@@ -22,7 +22,7 @@ live demo: https://samvidhaan-quest-1.onrender.com
 ## 📋 Table of Contents
 
 - [About the Project](#-about-the-project)
-- - [Project Screenshots](#-project-screenshots)
+- [Project Screenshots](#-project-screenshots)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [API Reference](#-api-reference)
@@ -47,7 +47,7 @@ Users earn XP, level up from *Citizen* to *Constitutional Expert*, battle friend
 
 ---
 
-##  Project Screenshots
+## Project Screenshots
 
 ### 🏠 Home Page
 <img width="931" height="478" alt="Home Page" src="https://github.com/user-attachments/assets/e9245fbe-3d8b-492f-b9c3-0a004628b7ec" />
