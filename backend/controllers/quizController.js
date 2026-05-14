@@ -27,7 +27,7 @@ const getQuizById = async (req, res) => {
     const sanitizedQuestions = quiz.questions.map((q) => ({
       _id: q._id,
       question: q.question,
-      options: q.options.map((o) => ({ _id: o._id, text: o.text })),
+      options: q.options.map((o) => ({ _id: o._id, text: o.text, isCorrect: o.isCorrect })),
       difficulty: q.difficulty,
       topic: q.topic,
       xpReward: q.xpReward,

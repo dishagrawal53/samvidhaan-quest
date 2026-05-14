@@ -13,21 +13,47 @@ export const useQuizStore = create((set, get) => ({
   startTime: null,
   questionStartTime: null,
   error: null,
+  isRandom: false,
 
   loadQuiz: async (quizId) => {
-    set({ isLoading: true, error: null })
+    set({ isLoading: true, error: null, isRandom: false })
     try {
       const data = await quizAPI.getById(quizId)
-      set({ currentQuiz: data.quiz, questions: data.quiz.questions, currentIndex: 0, answers: [], isComplete: false, result: null, startTime: Date.now(), questionStartTime: Date.now(), isLoading: false })
-    } catch (err) { set({ error: err.message, isLoading: false }) }
+      set({
+        currentQuiz: data.quiz,
+        questions: data.quiz.questions,
+        currentIndex: 0,
+        answers: [],
+        isComplete: false,
+        result: null,
+        startTime: Date.now(),
+        questionStartTime: Date.now(),
+        isLoading: false,
+      })
+    } catch (err) {
+      set({ error: err.message, isLoading: false })
+    }
   },
 
   loadRandom: async (params) => {
-    set({ isLoading: true, error: null })
+    set({ isLoading: true, error: null, isRandom: true })
     try {
+      // getRandom returns questions WITH isCorrect included for client grading
       const data = await quizAPI.getRandom(params)
-      set({ currentQuiz: null, questions: data.questions, currentIndex: 0, answers: [], isComplete: false, result: null, startTime: Date.now(), questionStartTime: Date.now(), isLoading: false })
-    } catch (err) { set({ error: err.message, isLoading: false }) }
+      set({
+        currentQuiz: null,
+        questions: data.questions,
+        currentIndex: 0,
+        answers: [],
+        isComplete: false,
+        result: null,
+        startTime: Date.now(),
+        questionStartTime: Date.now(),
+        isLoading: false,
+      })
+    } catch (err) {
+      set({ error: err.message, isLoading: false })
+    }
   },
 
   answerQuestion: (selectedOption) => {
@@ -36,23 +62,102 @@ export const useQuizStore = create((set, get) => ({
     const newAnswers = [...answers, { selectedOption, timeTaken, questionIndex: currentIndex }]
     const nextIndex = currentIndex + 1
     const isComplete = nextIndex >= questions.length
-    set({ answers: newAnswers, currentIndex: nextIndex, isComplete, questionStartTime: Date.now() })
+    set({
+      answers: newAnswers,
+      currentIndex: nextIndex,
+      isComplete,
+      questionStartTime: Date.now(),
+    })
     return { isComplete, answers: newAnswers }
   },
 
   submitQuiz: async () => {
-    const { currentQuiz, answers, startTime } = get()
-    if (!currentQuiz) return
+    const { currentQuiz, questions, answers, startTime, isRandom } = get()
     set({ isLoading: true })
+
     try {
       const timeTaken = Math.round((Date.now() - startTime) / 1000)
-      const data = await quizAPI.submit({ quizId: currentQuiz._id, answers, timeTaken })
-      set({ result: data.result, isLoading: false })
-      return data.result
-    } catch (err) { set({ error: err.message, isLoading: false }) }
+
+      // Named quiz — server-side grading
+      if (currentQuiz?._id && !isRandom) {
+        const data = await quizAPI.submit({
+          quizId: currentQuiz._id,
+          answers,
+          timeTaken,
+        })
+        set({ result: data.result, isLoading: false })
+        return data.result
+      }
+
+      // Random quiz — client-side grading using isCorrect from options
+      let correctCount = 0
+
+      const gradedAnswers = answers.map((answer, index) => {
+        const question = questions[index]
+        if (!question) return { isCorrect: false, selectedOption: answer.selectedOption, timeTaken: answer.timeTaken }
+
+        if (answer.selectedOption === -1) {
+          return {
+            questionId: question._id,
+            selectedOption: -1,
+            isCorrect: false,
+            timeTaken: answer.timeTaken,
+            explanation: question.explanation || `This question was about ${question.topic || 'the Constitution'}.`,
+            correctOptionIndex: question.options?.findIndex(o => o.isCorrect) ?? -1,
+          }
+        }
+
+        const selectedOpt = question.options?.[answer.selectedOption]
+        const isCorrect = selectedOpt?.isCorrect === true
+        if (isCorrect) correctCount++
+
+        return {
+          questionId: question._id,
+          selectedOption: answer.selectedOption,
+          isCorrect,
+          timeTaken: answer.timeTaken,
+          explanation: question.explanation || `Correct answer relates to ${question.topic || 'the Constitution'}.`,
+          correctOptionIndex: question.options?.findIndex(o => o.isCorrect) ?? -1,
+        }
+      })
+
+      const score = questions.length > 0
+        ? Math.round((correctCount / questions.length) * 100)
+        : 0
+
+      const xpEarned = Math.round(100 * (score / 100))
+
+      const result = {
+        score,
+        correctAnswers: correctCount,
+        totalQuestions: questions.length,
+        xpEarned,
+        leveledUp: false,
+        level: null,
+        gradedAnswers,
+        newBadges: [],
+      }
+
+      set({ result, isLoading: false })
+      return result
+    } catch (err) {
+      set({ error: err.message, isLoading: false })
+      return null
+    }
   },
 
-  reset: () => set({ currentQuiz: null, questions: [], currentIndex: 0, answers: [], isComplete: false, result: null, startTime: null, questionStartTime: null, error: null }),
+  reset: () => set({
+    currentQuiz: null,
+    questions: [],
+    currentIndex: 0,
+    answers: [],
+    isComplete: false,
+    result: null,
+    startTime: null,
+    questionStartTime: null,
+    error: null,
+    isRandom: false,
+  }),
 }))
 
 export const useRoomStore = create((set, get) => ({
@@ -68,7 +173,9 @@ export const useRoomStore = create((set, get) => ({
       const socket = connectSocket()
       get().setupListeners(socket)
       set({ isConnecting: false })
-    } catch { set({ error: 'Failed to connect', isConnecting: false }) }
+    } catch {
+      set({ error: 'Failed to connect', isConnecting: false })
+    }
   },
 
   setupListeners: (socket) => {
@@ -83,12 +190,20 @@ export const useRoomStore = create((set, get) => ({
       const { timer } = get()
       if (timer) clearInterval(timer)
       let timeLeft = 30
-      const newTimer = setInterval(() => { timeLeft -= 1; set({ timeLeft }); if (timeLeft <= 0) clearInterval(newTimer) }, 1000)
+      const newTimer = setInterval(() => {
+        timeLeft -= 1
+        set({ timeLeft })
+        if (timeLeft <= 0) clearInterval(newTimer)
+      }, 1000)
       set({ currentQuestion: question, questionIndex, totalQuestions: total, gameStatus: 'active', myAnswer: null, answerResult: null, timeLeft: 30, timer: newTimer })
     })
     socket.on('room:scores', ({ players }) => set({ scores: players }))
     socket.on('quiz:answered', ({ isCorrect, score, correctOption }) => set({ answerResult: { isCorrect, score, correctOption } }))
-    socket.on('game:ended', ({ results }) => { const { timer } = get(); if (timer) clearInterval(timer); set({ results, gameStatus: 'finished', timer: null }) })
+    socket.on('game:ended', ({ results }) => {
+      const { timer } = get()
+      if (timer) clearInterval(timer)
+      set({ results, gameStatus: 'finished', timer: null })
+    })
     socket.on('error', ({ message }) => set({ error: message }))
   },
 
@@ -105,7 +220,7 @@ export const useRoomStore = create((set, get) => ({
     leaveRoom()
     const { timer } = get()
     if (timer) clearInterval(timer)
-    set({ room: null, roomCode: null, isHost: false, currentQuestion: null, gameStatus: 'idle', results: null, timer: null })
+    set({ room: null, roomCode: null, isHost: false, currentQuestion: null, gameStatus: 'idle', results: null, timer: null, myAnswer: null, answerResult: null })
   },
   clearError: () => set({ error: null }),
 }))
