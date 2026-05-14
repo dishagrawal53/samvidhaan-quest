@@ -21,15 +21,21 @@ export default function QuizPage() {
   const [timerActive, setTimerActive] = useState(false)
   const timerRef = useRef(null)
 
-  useEffect(() => {
-    if (quizId && quizId !== 'random') {
-      loadQuiz(quizId)
-    } else {
-      const params = location.state || {}
-      loadRandom({ topic: params.topic || 'all', count: 10 })
-    }
-    return () => { reset(); clearInterval(timerRef.current) }
-  }, [quizId])
+ useEffect(() => {
+  reset()
+  clearInterval(timerRef.current)
+
+  if (quizId && quizId !== 'random') {
+    loadQuiz(quizId)
+  } else {
+    const params = location.state || {}
+    loadRandom({ topic: params.topic || 'all', count: 10 })
+  }
+
+  return () => {
+    clearInterval(timerRef.current)
+  }
+}, [location.key])
 
   useEffect(() => {
     if (questions.length > 0 && !isComplete) startQuestion()
