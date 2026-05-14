@@ -57,22 +57,27 @@ export const useQuizStore = create((set, get) => ({
   },
 
   answerQuestion: (selectedOption) => {
-    const { questions, currentIndex, answers, questionStartTime } = get()
-    const timeTaken = Math.round((Date.now() - questionStartTime) / 1000)
-    const newAnswers = [...answers, { selectedOption, timeTaken, questionIndex: currentIndex }]
-    const nextIndex = currentIndex + 1
-    const isComplete = nextIndex >= questions.length
-    set({
-      answers: newAnswers,
-      currentIndex: nextIndex,
-      isComplete,
-      questionStartTime: Date.now(),
-    })
-    return { isComplete, answers: newAnswers }
-  },
+  const { questions, currentIndex, answers, questionStartTime } = get()
+  const timeTaken = Math.round((Date.now() - questionStartTime) / 1000)
+  const newAnswers = [...answers, { selectedOption, timeTaken, questionIndex: currentIndex }]
+  const nextIndex = currentIndex + 1
+  const isComplete = nextIndex >= questions.length
+
+  set({
+    answers: newAnswers,
+    currentIndex: nextIndex,
+    isComplete,
+    questionStartTime: Date.now(),
+  })
+
+  // If complete, return the full answers so submitQuiz can use them directly
+  return { isComplete, answers: newAnswers }
+},
 
   submitQuiz: async () => {
-    const { currentQuiz, questions, answers, startTime, isRandom } = get()
+    const state = get()
+    const { currentQuiz, questions, startTime, isRandom } = state
+    const answers = state.answers  // always read fresh
     set({ isLoading: true })
 
     try {

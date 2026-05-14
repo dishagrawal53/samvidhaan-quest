@@ -200,15 +200,16 @@ const getRandomQuestions = async (req, res) => {
 
     const shuffled = allQuestions.sort(() => Math.random() - 0.5).slice(0, parseInt(count));
 
-    const sanitized = shuffled.map((q) => ({
-      _id: q._id,
-      question: q.question,
-      options: q.options.map((o) => ({ _id: o._id, text: o.text })),
-      difficulty: q.difficulty,
-      topic: q.topic,
-      xpReward: q.xpReward,
-      articleRef: q.articleRef,
-    }));
+   const sanitized = shuffled.map((q) => ({
+  _id: q._id,
+  question: q.question,
+  options: q.options.map((o) => ({ _id: o._id, text: o.text, isCorrect: o.isCorrect })),
+  explanation: q.explanation,
+  difficulty: q.difficulty,
+  topic: q.topic,
+  xpReward: q.xpReward,
+  articleRef: q.articleRef,
+}));
 
     res.json({ questions: sanitized });
   } catch (error) {
